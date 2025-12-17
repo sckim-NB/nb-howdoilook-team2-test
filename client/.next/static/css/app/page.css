@@ -1,0 +1,611 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/app/page.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes page_fadeIO__LRtUl {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.page_headerTop__5uOIK {
+  display: flex;
+  gap: normal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page_headerBottom__pSIDm {
+  display: flex;
+  gap: normal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 40px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/button/Button.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Button_fadeIO__THB5i {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.Button_container__EtN45 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  padding-block: 16px;
+}
+.Button_container__EtN45.Button_medium__imFnu {
+  padding-inline: 31px;
+}
+.Button_container__EtN45.Button_large__h0mpw {
+  width: 220px;
+}
+.Button_container__EtN45.Button_dark__p1U6F {
+  background-color: var(--black);
+  color: var(--white);
+}
+.Button_container__EtN45.Button_bright__gJCyX {
+  background-color: var(--white);
+  box-shadow: 0 0 0 1px inset var(--black);
+  color: var(--black);
+}
+.Button_container__EtN45[disabled] {
+  background-color: var(--gray-brt1);
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/input/Hint/Hint.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Hint_fadeIO__W4AkB {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.Hint_container__bjrsF {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  margin-top: 8px;
+  color: var(--red);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/input/TextField/TextField.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes TextField_fadeIO__qrFYi {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.TextField_container__bwOdw {
+  display: inline-block;
+  width: 100%;
+}
+
+.TextField_wrapper__Hrg86 {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 20px;
+  box-shadow: 0 0 0 1px inset var(--black);
+}
+.TextField_wrapper__Hrg86.TextField_disabled__eBNPD {
+  background-color: var(--gray-brt2);
+}
+.TextField_wrapper__Hrg86 .TextField_input__83jBp {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px;
+  flex: 1 1;
+  min-width: 0;
+}
+.TextField_wrapper__Hrg86 .TextField_input__83jBp::placeholder {
+  color: var(--gray-brt1);
+}
+.TextField_wrapper__Hrg86 .TextField_input__83jBp[disabled] {
+  color: transparent;
+}
+.TextField_wrapper__Hrg86 .TextField_input__83jBp[disabled]::placeholder {
+  opacity: 0;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/icon/Icon.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Icon_fadeIO__sVVgx {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.Icon_container___5Os4.Icon_clickable__lYEgH {
+  cursor: pointer;
+}
+.Icon_container___5Os4.Icon_rotate-45__z_qrS {
+  transform: rotate(45deg);
+}
+.Icon_container___5Os4.Icon_rotate-90__UhMAf {
+  transform: rotate(90deg);
+}
+.Icon_container___5Os4.Icon_rotate-135__F_ILl {
+  transform: rotate(135deg);
+}
+.Icon_container___5Os4.Icon_rotate-180__gDIUT {
+  transform: rotate(180deg);
+}
+.Icon_container___5Os4.Icon_rotate-225__WmJdo {
+  transform: rotate(225deg);
+}
+.Icon_container___5Os4.Icon_rotate-270__IFJk1 {
+  transform: rotate(270deg);
+}
+.Icon_container___5Os4.Icon_rotate-315__0AAZ1 {
+  transform: rotate(315deg);
+}
+.Icon_container___5Os4.Icon_rotate-360__4QB92 {
+  transform: rotate(360deg);
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/dropdown/Dropdown.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Dropdown_fadeIO__ySZnp {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.Dropdown_container__TkpRU {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.Dropdown_container__TkpRU .Dropdown_trigger__rXUw7 {
+  display: flex;
+  gap: normal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 144px;
+  padding: 12px 20px;
+  box-shadow: 0 0 0 1px inset var(--black);
+}
+.Dropdown_container__TkpRU .Dropdown_trigger__rXUw7 .Dropdown_selectedOption__994Mr {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+}
+.Dropdown_container__TkpRU .Dropdown_trigger__rXUw7 .Dropdown_iconWrapper___Feqy {
+  display: flex;
+  gap: normal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+.Dropdown_container__TkpRU .Dropdown_trigger__rXUw7 .Dropdown_iconWrapper___Feqy img {
+  transition: transform 0.5s;
+}
+.Dropdown_container__TkpRU .Dropdown_popup__rSrgf {
+  z-index: 100;
+  top: 58px;
+}
+.Dropdown_container__TkpRU .Dropdown_popup__rSrgf .Dropdown_selectMenu__X2u7U {
+  width: 144px;
+  background-color: var(--white);
+}
+.Dropdown_container__TkpRU .Dropdown_popup__rSrgf .Dropdown_selectMenu__X2u7U .Dropdown_item__WPi2m {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  width: 100%;
+  transition: background-color 0.5s;
+  text-align: left;
+}
+.Dropdown_container__TkpRU .Dropdown_popup__rSrgf .Dropdown_selectMenu__X2u7U .Dropdown_item__WPi2m:hover {
+  background-color: var(--gray-brt2);
+}
+.Dropdown_container__TkpRU .Dropdown_popup__rSrgf .Dropdown_selectMenu__X2u7U .Dropdown_item__WPi2m:first-child {
+  box-shadow: 0 0 0 1px inset var(--black);
+}
+.Dropdown_container__TkpRU .Dropdown_popup__rSrgf .Dropdown_selectMenu__X2u7U .Dropdown_item__WPi2m:not(:first-child) {
+  box-shadow: 1px 0 0 0 inset var(--black), -1px 0 0 0 inset var(--black), 0 -1px 0 0 inset var(--black);
+}
+.Dropdown_container__TkpRU .Dropdown_popup__rSrgf .Dropdown_selectMenu__X2u7U .Dropdown_item__WPi2m .Dropdown_text__drwNO {
+  margin: 16px 20px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/input/SearchBar/SearchBar.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes SearchBar_fadeIO__N3eX6 {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.SearchBar_container__EIWcy {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.SearchBar_container__EIWcy .SearchBar_inputWrapper__gyyif {
+  width: 100%;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/layout/MainLayout.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes MainLayout_fadeIO___QigM {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.MainLayout_container__ZE047 {
+  width: 1920px;
+  margin: 0 auto;
+  padding-block: 100px 180px;
+}
+.MainLayout_container__ZE047 .MainLayout_title__UMt9H {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: normal;
+  text-align: center;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/tag/tag/Tag.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Tag_fadeIO__XW0_v {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.Tag_container__t_VFS {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 7px 10px;
+  background-color: var(--gray-brt2);
+}
+.Tag_container__t_VFS.Tag_selected__1_YWU {
+  background-color: var(--black);
+  color: var(--white);
+  pointer-events: none;
+}
+.Tag_container__t_VFS .Tag_text__cDE0P {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/style-gallery/ui-gallery/GalleryCard.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes GalleryCard_fadeIO__juZYV {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.GalleryCard_container__KtYAh {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 340px;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj {
+  display: flex;
+  gap: normal;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 480px;
+  padding: 50px 25px;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj .GalleryCard_image__j2SW9 {
+  position: absolute;
+  inset: 0;
+  transition: opacity 1s;
+  object-fit: cover;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj .GalleryCard_image__j2SW9:hover {
+  transition: opacity 1.5s;
+  opacity: 0.3;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj .GalleryCard_categories__JSxgR {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj .GalleryCard_categories__JSxgR .GalleryCard_category__icmhU {
+  width: 100%;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj .GalleryCard_categories__JSxgR .GalleryCard_category__icmhU .GalleryCard_categoryInfo__1aEn6 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  margin-left: 16px;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj .GalleryCard_categories__JSxgR .GalleryCard_categoryNameContainer__UgZTq {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj.GalleryCard_isCategoryEllipsis__7DmaI {
+  display: flex;
+  gap: normal;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj.GalleryCard_isCategoryEllipsis__7DmaI .GalleryCard_categoryNameContainer__UgZTq:last-child {
+  margin-bottom: 0;
+}
+.GalleryCard_container__KtYAh .GalleryCard_imageContainer__L2LPj .GalleryCard_moreInfo__JzabM {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: normal;
+  color: var(--gray-brt1);
+}
+.GalleryCard_container__KtYAh .GalleryCard_body__OIm99 {
+  width: 100%;
+}
+.GalleryCard_container__KtYAh .GalleryCard_body__OIm99 .GalleryCard_titleContainer__MrD2P {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.GalleryCard_container__KtYAh .GalleryCard_body__OIm99 .GalleryCard_titleContainer__MrD2P .GalleryCard_tagsContainer__KcnP0 {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  width: 100%;
+}
+.GalleryCard_container__KtYAh .GalleryCard_body__OIm99 .GalleryCard_titleContainer__MrD2P .GalleryCard_title__iaMIj {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  width: 100%;
+}
+.GalleryCard_container__KtYAh .GalleryCard_body__OIm99 .GalleryCard_titleContainer__MrD2P .GalleryCard_title__iaMIj:hover {
+  text-decoration: underline;
+}
+.GalleryCard_container__KtYAh .GalleryCard_body__OIm99 .GalleryCard_titleContainer__MrD2P .GalleryCard_nickname__Z2Jgb {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  width: 100%;
+}
+.GalleryCard_container__KtYAh .GalleryCard_body__OIm99 .GalleryCard_content__p6pjV {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  color: var(--gray-brt1);
+}
+.GalleryCard_container__KtYAh .GalleryCard_footer__AUAvN {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: normal;
+}
+.GalleryCard_container__KtYAh .GalleryCard_footer__AUAvN .GalleryCard_count__PHEmH {
+  display: flex;
+  gap: 4px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/empty-data/EmptyData.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes EmptyData_fadeIO__Rq34l {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.EmptyData_container___ayYv {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.EmptyData_container___ayYv .EmptyData_iconWrapper__1_4uI {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 100px;
+}
+.EmptyData_container___ayYv .EmptyData_text__Wqbc_ {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/style-gallery/ui-gallery/UiGalleryStyleList.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes UiGalleryStyleList_fadeIO__JBucm {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.UiGalleryStyleList_container__JInzn {
+  display: grid;
+  grid-gap: 100px 40px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.UiGalleryStyleList_emptyStyleWrapper__sSSwh {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 103px auto 260px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/style-gallery/ui-gallery/UiTagList.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes UiTagList_fadeIO__jpmts {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.UiTagList_container__Eos8K {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

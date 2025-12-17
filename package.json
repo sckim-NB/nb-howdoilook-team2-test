@@ -1,0 +1,12 @@
+{
+   "name": "nb-howdoilook-root",
+   "version": "1.0.0",
+   "scripts": {
+      "start:server": "npm --prefix server run dev",
+      "start:client": "npm --prefix client run dev",
+      "dev": "concurrently --names \"SERVER,CLIENT\" -c \"bgBlue.bold,bgMagenta.bold\" -k -s first \"npm run start:server\" \"npm run start:client\""
+   },
+   "devDependencies": {
+      "concurrently": "^8.2.2"
+   }
+}

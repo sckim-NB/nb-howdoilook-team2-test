@@ -1,0 +1,337 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[13].use[5]!./src/styles/base.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes fadeIO {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+*:focus,
+*::before:focus,
+*::after:focus {
+  outline: none;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+input,
+textarea,
+button {
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+button[disabled] {
+  cursor: default;
+}
+
+ol,
+ul,
+li {
+  font-size: 100%;
+  list-style: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+dialog {
+  color: inherit;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/css/vars.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --black: #282828;
+  --gray-brt1: #929292;
+  --gray-brt2: #f3f3f3;
+  --white: #ffffff;
+  --red: #ff2828;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"public\\fonts\\localfonts.ts","import":"","arguments":[{"src":[{"path":"./NEXONLv1Gothic-Regular.otf","weight":"400","style":"normal"},{"path":"./NEXONLv1Gothic-Bold.otf","weight":"700","style":"normal"}],"display":"swap"}],"variableName":"NexonLv1Gothic"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__NexonLv1Gothic_c2c7d3';
+src: url(/_next/static/media/134e811cc6326fa9-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: '__NexonLv1Gothic_c2c7d3';
+src: url(/_next/static/media/2d143f9382b73f0b-s.p.otf) format('opentype');
+font-display: swap;
+font-weight: 700;
+font-style: normal;
+}@font-face {font-family: '__NexonLv1Gothic_Fallback_c2c7d3';src: local("Arial");ascent-override: 79.57%;descent-override: 22.10%;line-gap-override: 0.00%;size-adjust: 113.11%
+}.__className_c2c7d3 {font-family: '__NexonLv1Gothic_c2c7d3', '__NexonLv1Gothic_Fallback_c2c7d3'
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/navigation/GlobalNavigationBar.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes GlobalNavigationBar_fadeIO__R0Efu {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.GlobalNavigationBar_container__V0IUm {
+  display: flex;
+  gap: normal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  width: 1920px;
+  height: 70px;
+  margin: 0 auto;
+  padding-inline: 220px;
+}
+.GlobalNavigationBar_container__V0IUm .GlobalNavigationBar_logo__JS5Ky {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.GlobalNavigationBar_container__V0IUm .GlobalNavigationBar_buttonContainer__AQMbw {
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/libs/shared/icon/Icon.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Icon_fadeIO__sVVgx {
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.Icon_container___5Os4.Icon_clickable__lYEgH {
+  cursor: pointer;
+}
+.Icon_container___5Os4.Icon_rotate-45__z_qrS {
+  transform: rotate(45deg);
+}
+.Icon_container___5Os4.Icon_rotate-90__UhMAf {
+  transform: rotate(90deg);
+}
+.Icon_container___5Os4.Icon_rotate-135__F_ILl {
+  transform: rotate(135deg);
+}
+.Icon_container___5Os4.Icon_rotate-180__gDIUT {
+  transform: rotate(180deg);
+}
+.Icon_container___5Os4.Icon_rotate-225__WmJdo {
+  transform: rotate(225deg);
+}
+.Icon_container___5Os4.Icon_rotate-270__IFJk1 {
+  transform: rotate(270deg);
+}
+.Icon_container___5Os4.Icon_rotate-315__0AAZ1 {
+  transform: rotate(315deg);
+}
+.Icon_container___5Os4.Icon_rotate-360__4QB92 {
+  transform: rotate(360deg);
+}
